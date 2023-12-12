@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: f1fbff;
+
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.honey{
+    padding-top: 100vh ;
+    top: 0vh;
+}
+
+.landing .home-inner{
+    background-image: url(https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/skbvgh6m1wszvntb8zt9);
+} 
+
+ .section .carousel-inner{
+height: 30vh;
+}
+
+.section .item, img{
+    height: 100% ;
+    width:  10ovh ;
+    /* border: 1px solid red; */
+}
+
+.px-wide {
+    height: 10vh;
+}
+
+
+.child-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+
+.difficult .carousel-inner{
+    height: 50vh;
+}
+
+@media(max-width:600px) {
+ .mainh{
+    font-size:4vw;
+    padding-left: 2px;
+ }   
+ iframe{
+    width: 90vw;
+ }
+}
+ 
+/* .north p{
+position: absolute;
+} */
+.north:hover{
+    background-color:gray;
+    border:1px solid ;
+}

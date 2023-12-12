@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@300&family=Raleway:wght@100&family=Satisfy&family=Whisper&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-warning fs-1">Travel</span> Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Packages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-image d-flex justify-content-end  align-items-center text-light" style="background-image: url(https://f2x9r3j4.rocketcdn.me/wp-content/uploads/2019/05/Mount-Fuji-2.webp); width: 100%; height: 90vh; background-repeat: no-repeat;
+    background-size: cover; padding-right:50% ; ">
+        <h1 class="mainh" style="line-height: 1.9;margin-right: 10vw;">
+            TRAVEL <br><span style="font-family: cursive; ">far enough</span> <br>YOU MEET <br> <span
+                style="font-family: cursive;">yourself</span></h1>
+              
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary justify-content-center text-align-center" style="justify-content: center;margin-top:50% ; margin-right: -10%; margin-left: 7vw;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enquiry
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+            <form>
+                <div class="mb-3">
+                    <label for="test" class="form-label text-dark"></label>
+                    <input type="text" class="form-control" id="test" placeholder="Name">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-dark"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="test" class="form-label text-dark"></label>
+                    <input type="text" class="form-control" id="test" placeholder="Phone Number">
+                  </div>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Your Preferance</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <div class="mb-3">
+                    <label for="test" class="form-label text-dark"></label>
+                    <input type="text" class="form-control" id="test" placeholder="No.of Members">
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2" class="text-dark">Messages</label>
+                  </div>
+              </form>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    </div>
+
+
+
+    <!-- <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://f2x9r3j4.rocketcdn.me/wp-content/uploads/2019/05/Mount-Fuji-2.webp"
+                    class="d-block w-100" alt="No image">
+                <div class="carousel-caption bg-dark" style="justify-content: center;  left: 70%; top:50%; line-height: 2.9;">
+                    <h5 style="justify-content: center; align-items: center; top:0px;" >TRAVEL <br>far enough <br>YOU MEET <br> yourself </h5>
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+    <!-- <h1 class="text-center my-5">Honeymoon Packages</h1> -->
+
+    <div class="container">
+        <div class="text-center my-5">
+            <h1>Honeymoon Packages</h1>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white text-center bg-light pb-2 child-card">
+                    <div class="card-body">
+                        <img style="height: 30vh; width: 100%;" class="img-fluid"
+                            src="https://cdn.britannica.com/31/1631-050-23506727/vegetation-waterways-state-Kerala-India.jpg"
+                            alt="">
+                        <h3 class="card-title text-dark">Kerala Honeymoon Packages</h3>
+                        <p class="text-danger">(04 Nights / 05 Days)</p>
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis optio
+                            fuga
+                            dolores,
+                            provident nam ut unde nostrum amet error sed nulla voluptas neque, similique ullam fugit
+                            mollitia eos, autem aliquam?</p>
+                        <button class="btn btn-primary text-light">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white text-center bg-light pb-2 child-card">
+                    <div class="card-body">
+                        <img style="height: 29vh; width: 100%;" class="img-fluid"
+                            src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/397483443.jpg?k=4c09f5cfbde876a466a31d36ce365384e3aa89059bbd1ba971281f06b534e578&o=&hp=1"
+                            alt="">
+                        <h3 class="card-title text-dark">Maldives Packages</h3>
+                        <p class="text-danger">(04 Nights / 05 Days)</p>
+
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ea totam obca,l;pkiu9hhjbi9u9uihucati dolores molestias esse sequi, mollitia voluptates, consectetur exercitationem nulla quis repellendus rerum vel autem. Velit accusantium blanditiis repellendus.</p>
+                        <button class="btn btn-primary text-light">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white text-center bg-light pb-2 child-card">
+                    <div class="card-body">
+                        <img style="height: 30vh; width: 100%;" class="img-fluid"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Manali_City.jpg/1200px-Manali_City.jpg"
+                            alt="">
+                        <h3 class="card-title text-dark">Manali Honeymoon Packages</h3>
+                        <p class="text-danger">(04 Nights / 05 Days)</p>
+
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis optio
+                            fuga
+                            dolores,
+                            provident nam ut unde nostrum amet error sed nulla voluptas neque, similique ullam fugit
+                            mollitia eos, autem aliquam?</p>
+                        <button class="btn btn-primary text-light">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white text-center bg-light pb-2 child-card">
+                    <div class="card-body">
+                        <img style="height: 30vh; width: 100%; background-repeat: no-repeat;
+                        background-size: cover;" class="img-fluid"
+                            src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2021/07/Goa_Image1-1-1.jpg"
+                            alt="">
+                        <h3 class="card-title text-dark">Goa Honeymoon Packages</h3>
+                        <p class="text-danger">(04 Nights / 05 Days)</p>
+
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis optio
+                            fuga
+                            dolores,
+                            provident nam ut unde nostrum amet error sed nulla voluptas neque, similique ullam fugit
+                            mollitia eos, autem aliquam?</p>
+                        <button class="btn btn-primary text-light">Book Now</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center py-5">
+                    <button class="btn btn-primary text-light text-center">MORE PACKAGES</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- ------------- -->
+
+    <div class="container text-center bg-light ">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">SPECIAL KERALA FESTIVAL TOURS</h1>
+
+            </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-2">
+                <div class="carousel-item active">
+                    <img class="img-fluid " style="height: 40vh; width: 100%;"
+                        src="https://www.holidify.com/images/cmsuploads/compressed/Aranmula-boat_race-_Kerala-India-1_20190219184623jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary fs-1">KERALA BOAT RACE</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-primary text-dark">More Details</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid " style="height: 40vh; width: 100%;"
+                        src="https://www.makemytrip.com/travel-guide/media/dg_image/cochin/Kathakali.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary fs-1">KATHAKALI</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <button class="btn btn-primary text-dark">More Details</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid " style="height: 40vh; width: 100%;"
+                        src="https://images.hindustantimes.com/img/2022/05/10/1600x900/thrissur_pooram_1652190197958_1652190207167.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary fs-1">thrissur pooram</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <button class="btn btn-primary text-dark">More Details</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe width="530vw" height="370vh" src="https://www.youtube.com/embed/fJDlIbV3zKY"
+                    title="God&#39;s Own Country - Up Close and Personal | Experience Kerala | Kerala Tourism"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col ">
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202106/Ground_Report-Kerala_Tourism_1200x768.jpeg"
+                                alt="">
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src=" https://www.ekeralatourism.net/wp-content/uploads/2019/01/fest2.jpg" alt="">
+
+                            <img class="img-fluid p-1" style="width: 100%; height: 23vh;"
+                                src="  https://www.thestatesman.com/wp-content/uploads/2022/09/Untitled-design-14.jpg"
+                                alt="">
+
+
+                        </div>
+                        <div class="col " >
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src="https://www.newsexperts.in/wp-content/uploads/2021/01/folk.jpg" alt="">
+
+                            <img class="img-fluid p-1" style="width: 100%; height: 38vh;"
+                                src="https://i.pinimg.com/736x/3d/3d/6b/3d3d6bd33a385ec604331077135124e1.jpg" alt="">
+
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src="https://www.keralam.me/wp-content/uploads/2019/04/onam.jpg" alt="">
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2020/08/Kolkali-Dance-Kerala-1024x768.jpg"
+                                alt="">
+                            <img class="img-fluid p-1" style="width: 100%; height: auto;"
+                                src="https://irisholidays.com/keralatourism/wp-content/uploads/2020/10/ttamthullal-dance-kerala.jpg"
+                                alt="">
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--Northindian tours -->
+
+    <!-- <h1 class="text-center mt-5 mb-4">NORTH INDIAN TOURS</h1> -->
+
+    <div class="container text-center">
+        <div class="text-center my-5">
+            <h1>NORTH INDIAN TOURS</h1>
+
+        </div>
+
+
+
+        <div class="row m-1 p-1">
+            <div class="col-lg-3  col-sm-6 border rounded p-2 north">
+                <img class="img-fluid" style="width: 100%; height: 30vh;" src="https://static.toiimg.com/img/100273065/Master.jpg" alt="">
+                
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Varanasi
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Rs: 12,000/person <br>
+                            <button class="btn btn-primary" href="#">Book now</button>
+                        </div> 
+                        
+
+                      </div>
+                    </div>
+                    
+                    
+                
+                  </div>
+
+
+            </div>
+            <div class="col-lg-3  col-sm-6 border rounded p-2 anorth">
+                <img class="img-fluid" style="width: 100%; height: 30vh;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg/640px-Neeulm_Valley_AJK_%28Arang_Kel%29.jpg" alt="">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Kashmir
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Rs: 20,000/Personal <br>
+                            <button class="btn btn-primary" href="#">Book now</button>
+
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                
+                  </div>
+
+            </div>
+            <div class="col-lg-3  col-sm-6 border rounded p-2 bnorth"><img class="img-fluid" style="width: 100%; height: 30vh;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Golden_Temple%2C_Amritsar%2C_Punjab_UNAG.jpg/800px-Golden_Temple%2C_Amritsar%2C_Punjab_UNAG.jpg"
+                    alt="">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                             Punjab
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Rs: 14,000/Personal <br>
+                                <button class="btn btn-primary" href="#">Book now</button>
+
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                    
+                      </div>
+            </div>
+
+            <div class="col-lg-3  col-sm-6 border rounded p-2 cnorth ">
+                <img class="img-fluid" style="width: 100%; height: 30vh;"
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f9/rajasthan.jpg?w=700&h=500&s=1"
+                    alt="">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Rajasthan
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Rs: 18,000/Personal <br>
+                                <button class="btn btn-primary" href="#">Book now</button>
+
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                    
+                      </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="text-center mt-5">OUR PREMIUM FEATURES</h1>
+    <h4 class="text-center mb-4">We will make your dream come true</h4>
+
+    <div class="container text-center">
+        <div class="row ">
+            <div class="col border rounded col-lg-3  col-sm-6 ">
+                <img class="img-fluid rounded-circle" style="width:15vw; height: 30vh;"
+                    src="https://cdn.pixabay.com/photo/2020/11/22/00/47/couple-5765414_1280.jpg" alt="">
+                <p>FREE BIKE RIDE</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col border rounded  col-lg-3 col-sm-6">
+                <img class="img-fluid rounded-circle" style="width:15vw; height: 30vh;"
+                    src="https://png.pngtree.com/png-vector/20221105/ourmid/pngtree-a-young-couple-is-sitting-by-a-campfire-in-nature-png-image_6414696.png"
+                    alt="">
+                <p>CAMP FIRE</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col border rounded  col-lg-3  col-sm-6">
+
+                <img class="img-fluid rounded-circle" style="width:15vw; height: 30vh;"
+                    src="https://img.freepik.com/premium-vector/24-hour-support-people-flat-style-isometric-business-concept-marketing-concept-flat-design_123447-3869.jpg"
+                    alt="">
+                <p>24*7 SUPPORT</p>
+                <a href="#">Learn More</a>
+                <p class="pb-2 "></p>
+            </div>
+            <div class="col border rounded  col-lg-3 col-md-6 col-sm-12">
+                <img class="img-fluid rounded-circle" style="width:15vw; height: 30vh;"
+                    src="https://img.freepik.com/premium-vector/couple-tourists-going-sightseeing-asking-local-person-help-man-woman-with-personal-individual-guide-summer-holiday-travel-flat-vector-illustration-isolated-white-background_198278-15584.jpg?w=2000"
+                    alt="">
+                <p>TOUR GUIDE</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ........... -->
+
+    <div class="container text-center bg-light">
+
+        <div class="text-center my-5">
+            <p class="text-center mt-5 "><i class="bi bi-envelope-open-heart-fill fs-5"></i></p>
+            <h4 class="text-center mb-4 ">Our Customer Love</h4>
+
+        </div>
+
+
+        <div class="row m-1 p-1">
+            <div class="col border rounded p-2 m-3">
+                <img class="img-fluid pb-4"
+                    src="https://watermark.lovepik.com/photo/20211210/large/lovepik-the-couple-took-a-walk-in-the-high-end-community-picture_501802548.jpg"
+                    alt="">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                <h5 class="pt-2">Michael & Jenny</h5>
+
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, veniam soluta facilis
+                    hic, nemo laboriosam sit maiores quisquam in eius provident repellat repudiandae at labore voluptas
+                    tenetur quis quae quibusdam.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col border rounded p-2 m-3">
+                <img class="img-fluid pb-4"
+                    src="https://d39l2hkdp2esp1.cloudfront.net/img/photo/139732/139732_00_2x.jpg?20180206005709" alt="">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                <h5 class="pt-2">Rohith & Amrutha</h5>
+
+                <p class="pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ducimus iste ratione
+                    expedita? Eum unde iste, iure ullam blanditiis consequuntur dolorum, sunt quasi, eligendi odit
+                    minima error quia! Accusamus, perferendis.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="col border rounded p-2 m-3">
+
+                <img class="img-fluid pb-4"
+                    src="https://img.freepik.com/premium-photo/joy-being-love-shot-affectionate-young-couple-spending-time-together-outdoors_590464-30027.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699574400&semt=ais"
+                    alt="">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                <h5 class="pt-2">James & Anna</h5>
+                <p class="pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil reprehenderit omnis ipsa
+                    sit accusamus adipisci consequatur perspiciatis, sint aspernatur! Esse magnam, laborum quia eum
+                    quasi error quas rem officia voluptates!T</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ............ -->
+
+    <div class="d-flex justify-content-around bg-primary-subtle">
+        <div class="p-2">
+            <h5 class="pt-5">ABOUT US</h5>
+            <a class="text-decoration-none text-dark" href="#">Our Company</a> <br>
+            <a class="text-decoration-none text-dark" href="#">Our Management</a> <br>
+            <a class="text-decoration-none text-dark" href="#">Connections</a> <br>
+            <a class="text-decoration-none text-dark" href="#">Annual Reports</a> <br>
+            <a class="text-decoration-none text-dark" href="#">Our Network</a> <br>
+
+        </div>
+        <div class="p-2" >
+            <h5  class="pt-5 ps-5 text-align-center">SOCIAL MEDIA</h5>
+            <i class="bi bi-facebook p-2 fs-1 "></i><i class="bi bi-instagram p-2 fs-1"></i><i class="bi bi-twitter p-2 fs-1"></i><i
+                class="bi bi-whatsapp p-2 fs-1"></i>
+        </div>
+        <div class="p-5">
+            <img style="width: 20vw; height: 30vh;" class="img-fluid"
+                src="https://www.centreofexcellence.com/media/image/90/7c/9e259f792a00db0e6788761f6d4a.png"
+                alt="">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        
+</body>
+
+</html>
